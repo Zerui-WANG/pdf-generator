@@ -1,6 +1,6 @@
 const express = require('express');
 const pdfService = require('./pdf-service');
-const invoice = require('./data');
+const { invoice } = require('./data');
 
 const router = express.Router();
 router.get('/invoice', (req, res, next) => {
